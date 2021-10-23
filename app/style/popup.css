@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body,
+html {
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  width: 300px;
+  background-color: #343739;
+  padding: 16px;
+  max-height: 500px;
+  overflow: hidden scroll;
+}
+
+.liked {
+  margin-top: 8px;
+}
+
+#noWebsite {
+  width: 300px;
+  height: 300px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/icons/no-website.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#list {
+  list-style-type: none;
+}
+
+#list > li {
+  margin-bottom: 8px;
+}
+
+.divider {
+  margin: 8px 0px;
+  width: 300px;
+  height: 1px;
+  background-color: #2a2d2f;
+}
+
+.title {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.urlContainer {
+  width: 300px;
+  height: 40px;
+  max-height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2d2f;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#image {
+  height: 20px;
+  width: 20px;
+  padding-left: 8px;
+}
+
+#url {
+  white-space: nowrap;
+  flex: 1;
+  max-height: 24px;
+  color: whitesmoke;
+  padding: 0px 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#likedUrl {
+  white-space: nowrap;
+  flex: 1;
+  max-height: 24px;
+  color: whitesmoke;
+  padding: 0px 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#action {
+  flex: 0 1 40px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#remove {
+  flex: 0 1 40px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

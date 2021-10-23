@@ -1,0 +1,27 @@
+{
+  "name": "UpWeb",
+  "description": "Save or like a website for latter, so you won't have to search history or remember 'What's the name of that cool webite?'",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "app/popup.html",
+    "default_locale": "en",
+    "default_icon": {
+      "16": "/icons/16.png",
+      "32": "/icons/32.png",
+      "48": "/icons/48.png",
+      "128": "/icons/128.png"
+    }
+  },
+  "icons": {
+    "16": "/icons/16.png",
+    "32": "/icons/32.png",
+    "48": "/icons/48.png",
+    "128": "/icons/128.png"
+  }
+}

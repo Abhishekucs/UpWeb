@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/app/style/popup.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- active container section -->
+      <div class="container">
+        <p class="title">Active</p>
+        <div class="urlContainer">
+          <img src="" id="image" />
+          <a id="url" href="#" target="_blank"></a>
+          <div id="action">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M2.9219 12.4462C1.8489 9.09619 3.1039 4.93119 6.6209 3.79919C8.4709 3.20219 10.7539 3.70019 12.0509 5.48919C13.2739 3.63419 15.6229 3.20619 17.4709 3.79919C20.9869 4.93119 22.2489 9.09619 21.1769 12.4462C19.5069 17.7562 13.6799 20.5222 12.0509 20.5222C10.4229 20.5222 4.6479 17.8182 2.9219 12.4462Z"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15.7886 7.56396C16.9956 7.68796 17.7506 8.64496 17.7056 9.98596"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- active container end -->
+
+      <!-- divder start -->
+      <div class="divider"></div>
+      <!-- divder end -->
+
+      <!-- liked container section -->
+      <div class="container liked">
+        <p class="title">Liked</p>
+        <div id="noWebsite"></div>
+        <ul id="list"></ul>
+      </div>
+      <!-- liked container end -->
+    </div>
+    <script src="/app/js/popup.js"></script>
+  </body>
+</html>
